@@ -68,7 +68,7 @@ public class Solution {
             return 1;
         }
         if (Math.abs(c - e) == Math.abs(d - f)) {
-            if (Math.abs(c - a) == Math.abs(d - b) && (b - f) * (b - d) < 0) {
+            if (Math.abs(e - a) == Math.abs(f - b) && ((b - f) * (b - d) < 0)&&((a-e)*(a-c)<0) {
                 return 2;
             }
             return 1;
